@@ -33,3 +33,22 @@ curatedtrec_test:
   _target_: dpr.data.retriever_data.CsvQASrc
   file: data.retriever.qas.curatedtrec-test
 
+squad1_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.squad1-train
+
+squad1_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.squad1-dev
+
+squad1_test:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.squad1-test
+
+iddrs_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.iddrs-train
+
+iddrs_test:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.iddrs-test

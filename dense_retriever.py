@@ -72,16 +72,16 @@ def generate_question_vectors(
                 batch_tensors = [tensorizer.text_to_tensor(q) for q in batch_questions]
 
             # TODO: this only works for Wav2vec pipeline but will crash the regular text pipeline
-            max_vector_len = max(q_t.size(1) for q_t in batch_tensors)
-            min_vector_len = min(q_t.size(1) for q_t in batch_tensors)
+            max_vector_len = max(q_t.shape[0] for q_t in batch_tensors)
+            min_vector_len = min(q_t.shape[0] for q_t in batch_tensors)
 
             if max_vector_len != min_vector_len:
                 # TODO: _pad_to_len move to utils
                 from dpr.models.reader import _pad_to_len
                 batch_tensors = [_pad_to_len(q.squeeze(0), 0, max_vector_len) for q in batch_tensors]
 
-            q_ids_batch = torch.stack(batch_tensors, dim=0).cuda()
-            q_seg_batch = torch.zeros_like(q_ids_batch).cuda()
+            q_ids_batch = torch.stack(batch_tensors, dim=0)#.cuda()
+            q_seg_batch = torch.zeros_like(q_ids_batch)#.cuda()
             q_attn_mask = tensorizer.get_attn_mask(q_ids_batch)
 
             if selector:
@@ -472,6 +472,7 @@ def get_all_passages(ctx_sources):
 @hydra.main(config_path="conf", config_name="dense_retriever")
 def main(cfg: DictConfig):
     cfg = setup_cfg_gpu(cfg)
+    #cfg.n_gpu = 0
     saved_state = load_states_from_checkpoint(cfg.model_file)
 
     set_cfg_params_from_state(saved_state.encoder_params, cfg)
@@ -541,8 +542,8 @@ def main(cfg: DictConfig):
         index.init_index(vector_size)
         retriever = LocalFaissRetriever(encoder, cfg.batch_size, tensorizer, index)
 
-    logger.info("Using special token %s", qa_src.special_query_token)
-    questions_tensor = retriever.generate_question_vectors(questions, query_token=qa_src.special_query_token)
+    logger.info("Using special token %s", qa_src.special_token)
+    questions_tensor = retriever.generate_question_vectors(questions, query_token=qa_src.special_token)
 
     if qa_src.selector:
         logger.info("Using custom representation token selector")

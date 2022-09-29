@@ -43,3 +43,11 @@ curatedtrec_train:
 curatedtrec_dev:
   _target_: dpr.data.biencoder_data.JsonQADataset
   file: data.retriever.curatedtrec-dev
+
+iddrs_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.iddrs.iddrsDPRtrain
+
+iddrs_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.iddrs.iddrsDPRtest

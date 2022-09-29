@@ -1,8 +1,8 @@
 # @package _group_
 
-eval_step: 2000
-batch_size: 16
-dev_batch_size: 72
+eval_step: 1000 #2000
+batch_size: 1 #16
+dev_batch_size: 1 #72
 adam_eps: 1e-8
 adam_betas: (0.9, 0.999)
 max_grad_norm: 1.0
@@ -18,4 +18,4 @@ warmup_steps: 0
 gradient_accumulation_steps: 1
 
 # Total number of training epochs to perform.
-num_train_epochs: 100000
+num_train_epochs: 10 #100000

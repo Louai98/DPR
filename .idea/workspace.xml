@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fca182b1-06c5-4fd5-a4ba-244cae87564c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/conf/biencoder_train_cfg.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/biencoder_train_cfg.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/ctx_sources/default_sources.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/ctx_sources/default_sources.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/datasets/encoder_train_default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/datasets/encoder_train_default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/datasets/retriever_default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/datasets/retriever_default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/train/biencoder_local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/train/biencoder_local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/train/extractive_reader_default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/train/extractive_reader_default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dense_retriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/dense_retriever.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dpr/data/biencoder_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/dpr/data/biencoder_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dpr/models/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/dpr/models/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_extractive_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_extractive_reader.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EqYCxqCyouV0v5jKLfbm9yCaCf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/louai/Documents/Master/Master/DPR/downloads/data/retriever&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/downloads/data/retriever" />
+      <recent name="$PROJECT_DIR$/downloads/data" />
+      <recent name="$PROJECT_DIR$/data/IDDRS" />
+      <recent name="$PROJECT_DIR$/downloads/data/retriever/qas" />
+      <recent name="$PROJECT_DIR$/downloads/data/wikipedia_split" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Test1retriev">
+    <configuration name="Test1retriev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test1retriev.py" />
+      <option name="PARAMETERS" value="model_file=$PROJECT_DIR$/outputNEW/dpr_biencoder.1 qa_dataset=squad1_dev ctx_datatsets=[dpr_wiki] encoded_ctx_files=[$PROJECT_DIR$/outputs/2022-09-28/21-29-27/out.tsv_0] out_file=hahahoutput.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dense_retriever" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/xaivenv8/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dense_retriever.py" />
+      <option name="PARAMETERS" value="model_file=$PROJECT_DIR$/outputNEW/dpr_biencoder.1 qa_dataset=squad1_dev ctx_datatsets=[dpr_wiki] encoded_ctx_files=[$PROJECT_DIR$/outputs/2022-09-28/21-29-27/out.tsv_0] out_file=retriverOutput2.json" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_dense_embeddings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/xaivenv8/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_dense_embeddings.py" />
+      <option name="PARAMETERS" value="model_file=$PROJECT_DIR$/outputs/2022-09-27/14-42-34/checkpoint/dpr_biencoder.1 ctx_src=dpr_iddrs out_file=output2/dpr/dpr" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python data/download_data.py --resource data.retriever.nq" type="PythonConfigurationType" factoryName="Python">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/xaivenv8/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="data/download_data.py" />
+      <option name="PARAMETERS" value="--resource data.retriever.nq" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_dense_encoder" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/xaivenv8/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_dense_encoder.py" />
+      <option name="PARAMETERS" value="train_datasets=&quot;$PROJECT_DIR$/downloads/data/iddrs/iddrsDPRtrain.json&quot; train=biencoder_local output_dir=checkpoint" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_extractive_reader" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="DPR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/xaivenv8/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_extractive_reader.py" />
+      <option name="PARAMETERS" value="encoder.sequence_length=350 train_files=$PROJECT_DIR$/output2/nqOut.json dev_files=$PROJECT_DIR$/output2/nqOut.json output_dir=$PROJECT_DIR$/output2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.python data/download_data.py --resource data.retriever.nq" />
+      <item itemvalue="Python.train_dense_encoder" />
+      <item itemvalue="Python.generate_dense_embeddings" />
+      <item itemvalue="Python.dense_retriever" />
+      <item itemvalue="Python.train_extractive_reader" />
+      <item itemvalue="Python.Test1retriev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Test1retriev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fca182b1-06c5-4fd5-a4ba-244cae87564c" name="Changes" comment="" />
+      <created>1663324458209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663324458209</updated>
+      <workItem from="1663324459465" duration="272000" />
+      <workItem from="1663336588647" duration="5064000" />
+      <workItem from="1663365261210" duration="92000" />
+      <workItem from="1663365435077" duration="27471000" />
+      <workItem from="1663756292507" duration="33000" />
+      <workItem from="1663757279775" duration="24000" />
+      <workItem from="1663757411804" duration="23215000" />
+      <workItem from="1663936449258" duration="18000" />
+      <workItem from="1664152387573" duration="2099000" />
+      <workItem from="1664196037081" duration="1557000" />
+      <workItem from="1664280618780" duration="15350000" />
+      <workItem from="1664387914764" duration="5602000" />
+      <workItem from="1664448028789" duration="490000" />
+      <workItem from="1664452706503" duration="10068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/models/biencoder.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_extractive_reader.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_extractive_reader.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/models/reader.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/models/reader.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/models/reader.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/data/reader_data.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/data/retriever_data.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dpr/utils/conf_utils.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dense_retriever.py</url>
+          <line>345</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dense_retriever.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DPR$train_extractive_reader.coverage" NAME="train_extractive_reader Coverage Results" MODIFIED="1663794196062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DPR$train_dense_encoder.coverage" NAME="train_dense_encoder Coverage Results" MODIFIED="1664282552541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DPR$python_data_download_data_py___resource_data_retriever_nq.coverage" NAME="python data/download_data.py --resource data.retriever.nq Coverage Results" MODIFIED="1663774596946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DPR$generate_dense_embeddings.coverage" NAME="generate_dense_embeddings Coverage Results" MODIFIED="1664291402884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DPR$dense_retriever.coverage" NAME="dense_retriever Coverage Results" MODIFIED="1664453659828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DPR$Test1retriev.coverage" NAME="Test1retriev Coverage Results" MODIFIED="1664459457508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

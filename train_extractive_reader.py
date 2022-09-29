@@ -457,7 +457,7 @@ class ReaderTrainer(object):
                 if len(nbest) > 0 and not passage_thresholds:
                     break
 
-            if passage_thresholds:
+            if passage_thresholds and len(nbest) != 0:
                 passage_rank_matches = {}
                 for n in passage_thresholds:
                     curr_nbest = [pred for pred in nbest if pred.passage_index < n]

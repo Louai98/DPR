@@ -82,6 +82,7 @@ class JsonQADataset(Dataset):
         json_sample = self.data[index]
         r = BiEncoderSample()
         r.query = self._process_query(json_sample["question"])
+        r.answers = json_sample["answers"]
 
         positive_ctxs = json_sample["positive_ctxs"]
         if self.exclude_gold:
