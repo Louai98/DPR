@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fca182b1-06c5-4fd5-a4ba-244cae87564c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dpr/models/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/dpr/models/reader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +218,7 @@
       <workItem from="1664280618780" duration="15350000" />
       <workItem from="1664387914764" duration="5602000" />
       <workItem from="1664448028789" duration="490000" />
-      <workItem from="1664452706503" duration="10872000" />
+      <workItem from="1664452706503" duration="12074000" />
     </task>
     <servers />
   </component>
