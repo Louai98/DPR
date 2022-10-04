@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca182b1-06c5-4fd5-a4ba-244cae87564c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DPR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DPR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/2022-09-29/14-14-22/retriverOutput2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/louai/Documents/Master/Master/DPR/data/wikipedia_split",
+    "last_opened_file_path": "/home/louai/Documents/Master/Master/DPR",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -228,7 +226,9 @@
       <workItem from="1664634122295" duration="105000" />
       <workItem from="1664885188423" duration="614000" />
       <workItem from="1664892276695" duration="474000" />
-      <workItem from="1664892751899" duration="2551000" />
+      <workItem from="1664892751899" duration="3077000" />
+      <workItem from="1664895903589" duration="2160000" />
+      <workItem from="1664900354599" duration="89000" />
     </task>
     <servers />
   </component>
