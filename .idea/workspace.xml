@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fca182b1-06c5-4fd5-a4ba-244cae87564c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DPR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DPR.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dpr/models/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/dpr/models/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/2022-09-29/14-14-22/retriverOutput2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,23 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/louai/Documents/Master/Master/DPR/downloads/data/retriever&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/louai/Documents/Master/Master/DPR/data/wikipedia_split",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/wikipedia_split" />
       <recent name="$PROJECT_DIR$/downloads/data/retriever" />
       <recent name="$PROJECT_DIR$/downloads/data" />
       <recent name="$PROJECT_DIR$/data/IDDRS" />
       <recent name="$PROJECT_DIR$/downloads/data/retriever/qas" />
-      <recent name="$PROJECT_DIR$/downloads/data/wikipedia_split" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -218,7 +220,15 @@
       <workItem from="1664280618780" duration="15350000" />
       <workItem from="1664387914764" duration="5602000" />
       <workItem from="1664448028789" duration="490000" />
-      <workItem from="1664452706503" duration="12074000" />
+      <workItem from="1664452706503" duration="13975000" />
+      <workItem from="1664629769820" duration="83000" />
+      <workItem from="1664629887390" duration="10000" />
+      <workItem from="1664630003757" duration="6000" />
+      <workItem from="1664633921727" duration="39000" />
+      <workItem from="1664634122295" duration="105000" />
+      <workItem from="1664885188423" duration="614000" />
+      <workItem from="1664892276695" duration="474000" />
+      <workItem from="1664892751899" duration="2551000" />
     </task>
     <servers />
   </component>
